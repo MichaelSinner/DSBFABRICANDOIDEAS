@@ -2,6 +2,8 @@
 
 namespace App\Http\Controllers\Auth;
 
+use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
 use App\Http\Controllers\Controller;
 use Illuminate\Foundation\Auth\AuthenticatesUsers;
 
@@ -20,6 +22,21 @@ class LoginController extends Controller
 
     use AuthenticatesUsers;
 
+/*
+    public function login(Request $request){
+        $credentials = $this->validate(request(),[
+            'email' => 'email|required',
+            'password' => 'required|string'
+        ]);
+
+        if(Auth::attempt($credentials)){
+            return $redirectTo;
+        }else{
+            return back()->withErrors(['email' => 'Esta correo no coincide en los registros']);
+        }
+
+    }
+*/
     /**
      * Where to redirect users after login.
      *

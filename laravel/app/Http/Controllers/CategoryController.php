@@ -7,13 +7,7 @@ use Illuminate\Http\Request;
 
 class CategoryController extends Controller
 {
-    /* Constructor  
-    */
-    public function __construct()
-    {
-        $this->middleware('auth');
-
-    }
+ 
     /**
      * Display a listing of the resource.
      *
@@ -75,10 +69,10 @@ class CategoryController extends Controller
      * @param  \App\ProductCategory  $productCategory
      * @return \Illuminate\Http\Response
      */
-    public function edit(ProductCategory $productCategory)
+    public function edit($productCategory_id)
     {
-        $categories = ProductCategory::find($productCategory->id);
-        return view("dashboard.campaign.edit", ['categories' => $categories]);
+        $categories = ProductCategory::find($productCategory_id);
+        return view('category.edit', [ 'categories' => $categories]);
     }
 
     /**
@@ -88,10 +82,13 @@ class CategoryController extends Controller
      * @param  \App\ProductCategory  $productCategory
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, ProductCategory $productCategory)
+    public function update(Request $request, $productCategory_id)
     {
-        $id = $request->id;
-        $categories = ProductCategory::find($id);
+        $request->validate([
+            'name'=>'required'
+        ]);
+
+        $categories = ProductCategory::find($productCategory_id);
         $categories->name = $request->name;
         if($categories->save()){
             return redirect("/categories");
@@ -106,12 +103,11 @@ class CategoryController extends Controller
      * @param  \App\ProductCategory  $productCategory
      * @return \Illuminate\Http\Response
      */
-    public function destroy(ProductCategory $productCategory)
+    public function destroy($productCategory_id)
     {
 
-        $categories = ProductCategory::all()->where('id',$productCategory->id);
-        $count = count($publications);
-        ProductCategory::destroy($publication->id);
+        $categories = ProductCategory::find($productCategory_id);
+        ProductCategory::destroy($categories->id);
         return redirect ('/categories')->with('success','La categoria ha sido eliminada');
     }
 }

@@ -11,6 +11,16 @@ class CategoryTableSeeder extends Seeder
      */
     public function run()
     {
-        //
+        DB::table('product_categories')->insert([
+            'name' => 'Navidad'
+        ]);
+
+        DB::table('product_categories')->insert([
+            'name' => 'Halloween'
+        ]);
+
+        DB::table('product_categories')->insert([
+            'name' => 'Mujer, Madres, Amor y Amistad'
+        ]);
     }
 }

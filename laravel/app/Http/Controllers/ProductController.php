@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Product;
+use App\ProductCategory;
 use Illuminate\Http\Request;
 
 class ProductController extends Controller
@@ -14,7 +15,8 @@ class ProductController extends Controller
      */
     public function index()
     {
-        //
+        $products = Product::all();
+        return view("product.index",["products"=>$products]);
     }
 
     /**
@@ -24,7 +26,8 @@ class ProductController extends Controller
      */
     public function create()
     {
-        //
+        $categories = ProductCategory::all();
+        return view('product.create',["categories"=>$categories]); 
     }
 
     /**
@@ -35,7 +38,38 @@ class ProductController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $request->validate([
+            'name'=>'required',
+            'category_id' => 'required',
+            'description'=>'required',
+            'imagename' => 'required',
+            'imagename.*' => 'image|mimes:jpeg,png,jpg,gif,svg|max:2048'
+        ]);
+
+        if($request->hasfile('imagename'))
+        {
+            foreach($request->file('imagename') as $image)
+            {
+                $name=$image->getClientOriginalName();
+                $image->move(public_path().'/images/', $name);  
+                $data[] = $name;  
+            }
+        }
+
+        $product = new Product([
+            'name' => $request->get('name'),
+            'description' => $request->get('description'),
+            'category_id' => $request->get('category_id'),
+            'imagename' => json_encode($data)
+        ]);
+
+//        $product->imagename = json_encode($data);
+
+        $product->save();
+
+        if($product){
+            return redirect ('/products')->with('success','El producto ha sido agregado');
+        }
     }
 
     /**
@@ -44,9 +78,10 @@ class ProductController extends Controller
      * @param  \App\Product  $product
      * @return \Illuminate\Http\Response
      */
-    public function show(Product $product)
+    public function show($product_id)
     {
-        //
+        $product = Product::find($product_id);
+        return view('product.show',[ 'product' => $product]);
     }
 
     /**
@@ -55,9 +90,11 @@ class ProductController extends Controller
      * @param  \App\Product  $product
      * @return \Illuminate\Http\Response
      */
-    public function edit(Product $product)
+    public function edit($product_id)
     {
-        //
+        $categories = ProductCategory::all();
+        $product = Product::find($product_id);
+        return view('product.edit', [ 'product' => $product, 'categories' => $categories]);
     }
 
     /**
@@ -67,9 +104,38 @@ class ProductController extends Controller
      * @param  \App\Product  $product
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, Product $product)
+    public function update(Request $request, $product_id)
     {
-        //
+        $request->validate([
+            'name'=>'required',
+            'category_id' => 'required',
+            'description'=>'required'
+        ]);
+
+/*
+        if($request->hasfile('imagename'))
+        {
+            foreach($request->file('imagename') as $image)
+            {
+                $name=$image->getClientOriginalName();
+                $image->move(public_path().'/images/', $name);  
+                $data[] = $name;  
+            }
+        }
+        */
+
+
+        $product = Product::find($product_id);
+        $product->name = $request->name;
+        $product->description = $request->description;
+
+        //$product->filename=json_encode($data);
+
+        if($product->save()){
+            return redirect("/products");
+        }else{
+            return view("/home");
+        }
     }
 
     /**
@@ -78,8 +144,10 @@ class ProductController extends Controller
      * @param  \App\Product  $product
      * @return \Illuminate\Http\Response
      */
-    public function destroy(Product $product)
+    public function destroy($product_id)
     {
-        //
+        $product = Product::find($product_id);
+        Product::destroy($product->id);
+        return redirect ('/products')->with('success','El producto ha sido eliminada');
     }
 }

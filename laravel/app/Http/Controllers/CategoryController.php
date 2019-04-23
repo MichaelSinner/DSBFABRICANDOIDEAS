@@ -57,9 +57,9 @@ class CategoryController extends Controller
      * @param  \App\ProductCategory  $productCategory
      * @return \Illuminate\Http\Response
      */
-    public function show(ProductCategory $productCategory)
+    public function show($productCategory_id)
     {
-        $categories = ProductCategory::find($id);
+        $categories = ProductCategory::find($productCategory_id);
         return view('category.show',[ 'categories' => $categories]);
     }
 

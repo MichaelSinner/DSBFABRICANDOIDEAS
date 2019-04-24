@@ -15,10 +15,10 @@ class CreatePageInformationsTable extends Migration
     {
         Schema::create('page_informations', function (Blueprint $table) {
             $table->increments('id');
-            $table->string('mision');
-            $table->string('vision');
-            $table->string('whoarewe');
-            $table->string('historical_review');
+            $table->longText('mision');
+            $table->longText('vision');
+            $table->longText('whoarewe');
+            $table->longText('historical_review');
             $table->timestamps();
         });
     }

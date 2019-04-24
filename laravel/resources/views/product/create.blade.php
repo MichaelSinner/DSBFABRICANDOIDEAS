@@ -1,6 +1,6 @@
 @extends('layouts.category')
 
-@section('title', 'DSB FABRICANDO IDEAS - Crear Producto')
+@section('content')
 <style>
   .uper {
     margin-top: 40px;
@@ -34,6 +34,7 @@
           </div>
 
           <div class="form-group">
+            <label for="category_id">Categoría del producto:</label>
             <select name="category_id" id="category_id" required>
               <option selected disabled>Seleccione la categoría</option>
               @foreach($categories as $category)
@@ -43,7 +44,7 @@
           </div>
 
           <div class="form-group">
-              @csrf
+              <label for="imagename[]">Imágenes del producto:</label>
               <div class="input-group control-group increment" >
                 <input type="file" name="imagename[]" class="form-control">
                 <div class="input-group-btn"> 
@@ -64,6 +65,7 @@
       </form>
   </div>
 </div>
+@endsection
 
 
 

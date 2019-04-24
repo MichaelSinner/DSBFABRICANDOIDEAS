@@ -1,6 +1,6 @@
 @extends('layouts.category')
 
-@section('title', 'DSB FABRICANDO IDEAS - Editar Categoria')
+@section('content')
 <style>
   .uper {
     margin-top: 40px;
@@ -31,3 +31,4 @@
       </form>
   </div>
 </div>
+@endsection

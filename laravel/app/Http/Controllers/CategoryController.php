@@ -41,7 +41,7 @@ class CategoryController extends Controller
             'name'=>'required'
         ]);
         $categories = new ProductCategory([
-            'name' => $request->get('name'),
+            'name' => $request->get('name')
         ]);
 
         $categories->save();

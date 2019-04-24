@@ -14,7 +14,8 @@ class PageInformationController extends Controller
      */
     public function index()
     {
-        //
+        $info = PageInformation::all();
+        return view("pageInfo.index",["infos"=>$info]);
     }
 
     /**
@@ -24,7 +25,7 @@ class PageInformationController extends Controller
      */
     public function create()
     {
-        //
+        return view('pageInfo.create');
     }
 
     /**
@@ -35,7 +36,24 @@ class PageInformationController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $request->validate([
+            'mision'=>'required',
+            'vision'=>'required',
+            'whoarewe'=>'required',
+            'historical_review'=>'required'
+        ]);
+        $infos = new PageInformation([
+            'name' => $request->get('name'),
+            'vision' => $request->get('vision'),
+            'whoarewe' => $request->get('whoarewe'),
+            'historical_review' => $request->get('historical_review'),
+        ]);
+
+        $infos->save();
+
+        if($infos){
+            return redirect ('/infos')->with('success','La categoria ha sido creada');
+        }
     }
 
     /**
@@ -44,9 +62,10 @@ class PageInformationController extends Controller
      * @param  \App\PageInformation  $pageInformation
      * @return \Illuminate\Http\Response
      */
-    public function show(PageInformation $pageInformation)
+    public function show($pageInformation_id)
     {
-        //
+        $info = PageInformation::find($pageInformation_id);
+        return view('pageInfo.show',[ 'infos' => $info]);
     }
 
     /**
@@ -55,9 +74,10 @@ class PageInformationController extends Controller
      * @param  \App\PageInformation  $pageInformation
      * @return \Illuminate\Http\Response
      */
-    public function edit(PageInformation $pageInformation)
+    public function edit($pageInformation_id)
     {
-        //
+        $info = PageInformation::find($pageInformation_id);
+        return view('pageInfo.edit', [ 'info' => $info]);
     }
 
     /**
@@ -67,9 +87,26 @@ class PageInformationController extends Controller
      * @param  \App\PageInformation  $pageInformation
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, PageInformation $pageInformation)
+    public function update(Request $request, $pageInformation_id)
     {
-        //
+        $request->validate([
+            'mision'=>'required',
+            'vision'=>'required',
+            'whoarewe'=>'required',
+            'historical_review'=>'required'
+        ]);
+
+        $info = PageInformation::find($pageInformation_id);
+        $info->mision = $request->mision;
+        $info->vision = $request->vision;
+        $info->whoarewe = $request->whoarewe;
+        $info->historical_review = $request->historical_review;
+
+        if($info->save()){
+            return redirect("/infos");
+        }else{
+            return view("/home");
+        }
     }
 
     /**
@@ -78,8 +115,10 @@ class PageInformationController extends Controller
      * @param  \App\PageInformation  $pageInformation
      * @return \Illuminate\Http\Response
      */
-    public function destroy(PageInformation $pageInformation)
+    public function destroy($pageInformation_id)
     {
-        //
+        $info = PageInformation::find($pageInformation_id);
+        PageInformation::destroy($info->id);
+        return redirect ('/infos')->with('success','La información de la página ha sido eliminada');
     }
 }

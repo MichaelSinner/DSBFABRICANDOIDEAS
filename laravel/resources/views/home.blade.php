@@ -21,9 +21,9 @@
                     <br>
 
                     <div class="card-body">
-                        <a class="btn btn-primary" href="">Categorias</a>
-                        <a class="btn btn-primary" href="">Productos</a>
-                        <a class="btn btn-primary" href="">Información Página</a>
+                        <a class="btn btn-primary" href="\categories">Categorias</a>
+                        <a class="btn btn-primary" href="\products">Productos</a>
+                        <a class="btn btn-primary" href="\infos">Información Página</a>
                     </div>
                    
                 </div>

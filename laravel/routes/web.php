@@ -13,8 +13,11 @@ use App\ProductCategory;
 |
 */
 
-Route::get('/', function () {
-    return view('index');
+
+Route::get('/', function()
+{
+    //
+    return View::make('index');
 });
 
 Auth::routes();

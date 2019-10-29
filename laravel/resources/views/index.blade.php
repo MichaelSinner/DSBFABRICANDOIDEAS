@@ -94,7 +94,6 @@
                     <li><a href="#products-section" class="nav-link">Productos</a></li>
                     <li><a href="#about-section" class="nav-link">Acerca de nosotros</a></li>
                     <li><a href="#special-section" class="nav-link">Special</a></li>
-                    <li><a href="#testimonials-section" class="nav-link">Testimonios</a></li>
                     <li><a href="#blog-section" class="nav-link">Blog</a></li>
                     <li><a href="#contact-section" class="nav-link">Contáctenos</a></li>
                   </ul>
@@ -116,7 +115,7 @@
             <div class="row mb-4">
               <div class="col-md-7">
                 <h1>Compra con nosotros!</h1>
-                <p class="mb-5 lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam assumenda ea quo cupiditate facere deleniti fuga officia.</p>
+                <!--<p class="mb-5 lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam assumenda ea quo cupiditate facere deleniti fuga officia.</p>-->
                 <div>
                   <a href="#products-section" class="btn btn-white btn-outline-white py-3 px-5 rounded-0 mb-lg-0 mb-2 d-block d-sm-inline-block nav-link">Ver Catalogo de productos</a>
                   <a href="#contact-section" class="btn btn-white py-3 px-5 rounded-0 d-block d-sm-inline-block nav-link">Contáctanos</a>
@@ -150,7 +149,7 @@
                 </div>
                 <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
                 <div>
-                  <a href="#" class="btn btn-black mr-1 rounded-0">Cart</a>
+                  
                   <a href="#catalogo-navidad" class="btn btn-black btn-outline-black ml-1 rounded-0">Ver Productos</a>
                 </div>
               </div>
@@ -170,7 +169,7 @@
                 </div>
                 <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
                 <div>
-                  <a href="#" class="btn btn-black mr-1 rounded-0">Cart</a>
+                  
                   <a href="#catalogo-halloween" class="btn btn-black btn-outline-black ml-1 rounded-0">Ver productos</a>
                 </div>
               </div>
@@ -190,7 +189,7 @@
                 </div>
                 <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
                 <div>
-                  <a href="#" class="btn btn-black mr-1 rounded-0">Cart</a>
+                  
                   <a href="#catalogo-amor" class="btn btn-black btn-outline-black ml-1 rounded-0">Ver productos</a>
                 </div>
               </div>
@@ -209,7 +208,7 @@
             <h2>Reciba notificaciones sobre cada actualización.</h2>
             <div class="d-flex mb-4">
               <input type="text" class="form-control rounded-0" placeholder="Ingrese su correo electrónico.">
-              <input type="submit" class="btn btn-white btn-outline-white rounded-0" value="Suscribir">
+              <input type="submit" class="btn btn-white btn-outline-white rounded-0" value="Subscribirse">
             </div>
             <p>Recibe a su correo electrónico nuestras últimas actualizaciones, nuevos productos, nuevas ofertas.</p>
           </form>
@@ -242,8 +241,8 @@
                         </div>
                         <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
                         <div>
-                          <a href="#" class="btn btn-black mr-1 rounded-0">Cart</a>
-                          <a href="#" class="btn btn-black btn-outline-black ml-1 rounded-0">View</a>
+                          
+                          <a href="#" class="btn btn-black btn-outline-black ml-1 rounded-0">Ver</a>
                         </div>
                       </div>
                     </div>
@@ -262,8 +261,8 @@
                         </div>
                         <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
                         <div>
-                          <a href="#" class="btn btn-black mr-1 rounded-0">Cart</a>
-                          <a href="#" class="btn btn-black btn-outline-black ml-1 rounded-0">View</a>
+                          
+                          <a href="#" class="btn btn-black btn-outline-black ml-1 rounded-0">Ver</a>
                         </div>
                       </div>
                     </div>
@@ -282,8 +281,8 @@
                         </div>
                         <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
                         <div>
-                          <a href="#" class="btn btn-black mr-1 rounded-0">Cart</a>
-                          <a href="#" class="btn btn-black btn-outline-black ml-1 rounded-0">View</a>
+                          
+                          <a href="#" class="btn btn-black btn-outline-black ml-1 rounded-0">Ver</a>
                         </div>
                       </div>
                     </div>
@@ -302,8 +301,8 @@
                         </div>
                         <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
                         <div>
-                          <a href="#" class="btn btn-black mr-1 rounded-0">Cart</a>
-                          <a href="#" class="btn btn-black btn-outline-black ml-1 rounded-0">View</a>
+                          
+                          <a href="#" class="btn btn-black btn-outline-black ml-1 rounded-0">Ver</a>
                         </div>
                       </div>
                     </div>
@@ -322,8 +321,8 @@
                         </div>
                         <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
                         <div>
-                          <a href="#" class="btn btn-black mr-1 rounded-0">Cart</a>
-                          <a href="#" class="btn btn-black btn-outline-black ml-1 rounded-0">View</a>
+                          
+                          <a href="#" class="btn btn-black btn-outline-black ml-1 rounded-0">Ver</a>
                         </div>
                       </div>
                     </div>
@@ -342,8 +341,8 @@
                         </div>
                         <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
                         <div>
-                          <a href="#" class="btn btn-black mr-1 rounded-0">Cart</a>
-                          <a href="#" class="btn btn-black btn-outline-black ml-1 rounded-0">View</a>
+                          
+                          <a href="#" class="btn btn-black btn-outline-black ml-1 rounded-0">Ver</a>
                         </div>
                       </div>
                     </div>
@@ -368,8 +367,8 @@
                         </div>
                         <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
                         <div>
-                          <a href="#" class="btn btn-black mr-1 rounded-0">Cart</a>
-                          <a href="#" class="btn btn-black btn-outline-black ml-1 rounded-0">View</a>
+                          
+                          <a href="#" class="btn btn-black btn-outline-black ml-1 rounded-0">Ver</a>
                         </div>
                       </div>
                     </div>
@@ -388,8 +387,8 @@
                         </div>
                         <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
                         <div>
-                          <a href="#" class="btn btn-black mr-1 rounded-0">Cart</a>
-                          <a href="#" class="btn btn-black btn-outline-black ml-1 rounded-0">View</a>
+                          
+                          <a href="#" class="btn btn-black btn-outline-black ml-1 rounded-0">Ver</a>
                         </div>
                       </div>
                     </div>
@@ -408,8 +407,8 @@
                         </div>
                         <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
                         <div>
-                          <a href="#" class="btn btn-black mr-1 rounded-0">Cart</a>
-                          <a href="#" class="btn btn-black btn-outline-black ml-1 rounded-0">View</a>
+                          
+                          <a href="#" class="btn btn-black btn-outline-black ml-1 rounded-0">Ver</a>
                         </div>
                       </div>
                     </div>
@@ -428,8 +427,8 @@
                         </div>
                         <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
                         <div>
-                          <a href="#" class="btn btn-black mr-1 rounded-0">Cart</a>
-                          <a href="#" class="btn btn-black btn-outline-black ml-1 rounded-0">View</a>
+                          
+                          <a href="#" class="btn btn-black btn-outline-black ml-1 rounded-0">Ver</a>
                         </div>
                       </div>
                     </div>
@@ -448,8 +447,8 @@
                         </div>
                         <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
                         <div>
-                          <a href="#" class="btn btn-black mr-1 rounded-0">Cart</a>
-                          <a href="#" class="btn btn-black btn-outline-black ml-1 rounded-0">View</a>
+                          
+                          <a href="#" class="btn btn-black btn-outline-black ml-1 rounded-0">Ver</a>
                         </div>
                       </div>
                     </div>
@@ -468,8 +467,8 @@
                         </div>
                         <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
                         <div>
-                          <a href="#" class="btn btn-black mr-1 rounded-0">Cart</a>
-                          <a href="#" class="btn btn-black btn-outline-black ml-1 rounded-0">View</a>
+                          
+                          <a href="#" class="btn btn-black btn-outline-black ml-1 rounded-0">Ver</a>
                         </div>
                       </div>
                     </div>
@@ -494,8 +493,8 @@
                         </div>
                         <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
                         <div>
-                          <a href="#" class="btn btn-black mr-1 rounded-0">Cart</a>
-                          <a href="#" class="btn btn-black btn-outline-black ml-1 rounded-0">View</a>
+                          
+                          <a href="#" class="btn btn-black btn-outline-black ml-1 rounded-0">Ver</a>
                         </div>
                       </div>
                     </div>
@@ -514,8 +513,8 @@
                         </div>
                         <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
                         <div>
-                          <a href="#" class="btn btn-black mr-1 rounded-0">Cart</a>
-                          <a href="#" class="btn btn-black btn-outline-black ml-1 rounded-0">View</a>
+                          
+                          <a href="#" class="btn btn-black btn-outline-black ml-1 rounded-0">Ver</a>
                         </div>
                       </div>
                     </div>
@@ -534,8 +533,8 @@
                         </div>
                         <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
                         <div>
-                          <a href="#" class="btn btn-black mr-1 rounded-0">Cart</a>
-                          <a href="#" class="btn btn-black btn-outline-black ml-1 rounded-0">View</a>
+                          
+                          <a href="#" class="btn btn-black btn-outline-black ml-1 rounded-0">Ver</a>
                         </div>
                       </div>
                     </div>
@@ -554,8 +553,8 @@
                         </div>
                         <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
                         <div>
-                          <a href="#" class="btn btn-black mr-1 rounded-0">Cart</a>
-                          <a href="#" class="btn btn-black btn-outline-black ml-1 rounded-0">View</a>
+                          
+                          <a href="#" class="btn btn-black btn-outline-black ml-1 rounded-0">Ver</a>
                         </div>
                       </div>
                     </div>
@@ -574,8 +573,8 @@
                         </div>
                         <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
                         <div>
-                          <a href="#" class="btn btn-black mr-1 rounded-0">Cart</a>
-                          <a href="#" class="btn btn-black btn-outline-black ml-1 rounded-0">View</a>
+                          
+                          <a href="#" class="btn btn-black btn-outline-black ml-1 rounded-0">Ver</a>
                         </div>
                       </div>
                     </div>
@@ -594,8 +593,8 @@
                         </div>
                         <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
                         <div>
-                          <a href="#" class="btn btn-black mr-1 rounded-0">Cart</a>
-                          <a href="#" class="btn btn-black btn-outline-black ml-1 rounded-0">View</a>
+                          
+                          <a href="#" class="btn btn-black btn-outline-black ml-1 rounded-0">Ver</a>
                         </div>
                       </div>
                     </div>
@@ -620,8 +619,8 @@
                         </div>
                         <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
                         <div>
-                          <a href="#" class="btn btn-black mr-1 rounded-0">Cart</a>
-                          <a href="#" class="btn btn-black btn-outline-black ml-1 rounded-0">View</a>
+                          
+                          <a href="#" class="btn btn-black btn-outline-black ml-1 rounded-0">Ver</a>
                         </div>
                       </div>
                     </div>
@@ -640,8 +639,8 @@
                         </div>
                         <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
                         <div>
-                          <a href="#" class="btn btn-black mr-1 rounded-0">Cart</a>
-                          <a href="#" class="btn btn-black btn-outline-black ml-1 rounded-0">View</a>
+                          
+                          <a href="#" class="btn btn-black btn-outline-black ml-1 rounded-0">Ver</a>
                         </div>
                       </div>
                     </div>
@@ -660,8 +659,8 @@
                         </div>
                         <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
                         <div>
-                          <a href="#" class="btn btn-black mr-1 rounded-0">Cart</a>
-                          <a href="#" class="btn btn-black btn-outline-black ml-1 rounded-0">View</a>
+                          
+                          <a href="#" class="btn btn-black btn-outline-black ml-1 rounded-0">Ver</a>
                         </div>
                       </div>
                     </div>
@@ -680,8 +679,8 @@
                         </div>
                         <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
                         <div>
-                          <a href="#" class="btn btn-black mr-1 rounded-0">Cart</a>
-                          <a href="#" class="btn btn-black btn-outline-black ml-1 rounded-0">View</a>
+                          
+                          <a href="#" class="btn btn-black btn-outline-black ml-1 rounded-0">Ver</a>
                         </div>
                       </div>
                     </div>
@@ -700,8 +699,8 @@
                         </div>
                         <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
                         <div>
-                          <a href="#" class="btn btn-black mr-1 rounded-0">Cart</a>
-                          <a href="#" class="btn btn-black btn-outline-black ml-1 rounded-0">View</a>
+                          
+                          <a href="#" class="btn btn-black btn-outline-black ml-1 rounded-0">Ver</a>
                         </div>
                       </div>
                     </div>
@@ -720,8 +719,8 @@
                         </div>
                         <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
                         <div>
-                          <a href="#" class="btn btn-black mr-1 rounded-0">Cart</a>
-                          <a href="#" class="btn btn-black btn-outline-black ml-1 rounded-0">View</a>
+                          
+                          <a href="#" class="btn btn-black btn-outline-black ml-1 rounded-0">Ver</a>
                         </div>
                       </div>
                     </div>
@@ -746,8 +745,8 @@
                         </div>
                         <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
                         <div>
-                          <a href="#" class="btn btn-black mr-1 rounded-0">Cart</a>
-                          <a href="#" class="btn btn-black btn-outline-black ml-1 rounded-0">View</a>
+                          
+                          <a href="#" class="btn btn-black btn-outline-black ml-1 rounded-0">Ver</a>
                         </div>
                       </div>
                     </div>
@@ -766,8 +765,8 @@
                         </div>
                         <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
                         <div>
-                          <a href="#" class="btn btn-black mr-1 rounded-0">Cart</a>
-                          <a href="#" class="btn btn-black btn-outline-black ml-1 rounded-0">View</a>
+                          
+                          <a href="#" class="btn btn-black btn-outline-black ml-1 rounded-0">Ver</a>
                         </div>
                       </div>
                     </div>
@@ -786,8 +785,8 @@
                         </div>
                         <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
                         <div>
-                          <a href="#" class="btn btn-black mr-1 rounded-0">Cart</a>
-                          <a href="#" class="btn btn-black btn-outline-black ml-1 rounded-0">View</a>
+                          
+                          <a href="#" class="btn btn-black btn-outline-black ml-1 rounded-0">Ver</a>
                         </div>
                       </div>
                     </div>
@@ -823,8 +822,8 @@
                         </div>
                         <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
                         <div>
-                          <a href="#" class="btn btn-black mr-1 rounded-0">Cart</a>
-                          <a href="#" class="btn btn-black btn-outline-black ml-1 rounded-0">View</a>
+                          
+                          <a href="#" class="btn btn-black btn-outline-black ml-1 rounded-0">Ver</a>
                         </div>
                       </div>
                     </div>
@@ -843,8 +842,8 @@
                         </div>
                         <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
                         <div>
-                          <a href="#" class="btn btn-black mr-1 rounded-0">Cart</a>
-                          <a href="#" class="btn btn-black btn-outline-black ml-1 rounded-0">View</a>
+                          
+                          <a href="#" class="btn btn-black btn-outline-black ml-1 rounded-0">Ver</a>
                         </div>
                       </div>
                     </div>
@@ -863,8 +862,8 @@
                         </div>
                         <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
                         <div>
-                          <a href="#" class="btn btn-black mr-1 rounded-0">Cart</a>
-                          <a href="#" class="btn btn-black btn-outline-black ml-1 rounded-0">View</a>
+                          
+                          <a href="#" class="btn btn-black btn-outline-black ml-1 rounded-0">Ver</a>
                         </div>
                       </div>
                     </div>
@@ -883,8 +882,8 @@
                         </div>
                         <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
                         <div>
-                          <a href="#" class="btn btn-black mr-1 rounded-0">Cart</a>
-                          <a href="#" class="btn btn-black btn-outline-black ml-1 rounded-0">View</a>
+                          
+                          <a href="#" class="btn btn-black btn-outline-black ml-1 rounded-0">Ver</a>
                         </div>
                       </div>
                     </div>
@@ -903,8 +902,8 @@
                         </div>
                         <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
                         <div>
-                          <a href="#" class="btn btn-black mr-1 rounded-0">Cart</a>
-                          <a href="#" class="btn btn-black btn-outline-black ml-1 rounded-0">View</a>
+                          
+                          <a href="#" class="btn btn-black btn-outline-black ml-1 rounded-0">Ver</a>
                         </div>
                       </div>
                     </div>
@@ -923,8 +922,8 @@
                         </div>
                         <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
                         <div>
-                          <a href="#" class="btn btn-black mr-1 rounded-0">Cart</a>
-                          <a href="#" class="btn btn-black btn-outline-black ml-1 rounded-0">View</a>
+                          
+                          <a href="#" class="btn btn-black btn-outline-black ml-1 rounded-0">Ver</a>
                         </div>
                       </div>
                     </div>
@@ -949,8 +948,8 @@
                         </div>
                         <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
                         <div>
-                          <a href="#" class="btn btn-black mr-1 rounded-0">Cart</a>
-                          <a href="#" class="btn btn-black btn-outline-black ml-1 rounded-0">View</a>
+                          
+                          <a href="#" class="btn btn-black btn-outline-black ml-1 rounded-0">Ver</a>
                         </div>
                       </div>
                     </div>
@@ -969,8 +968,8 @@
                         </div>
                         <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
                         <div>
-                          <a href="#" class="btn btn-black mr-1 rounded-0">Cart</a>
-                          <a href="#" class="btn btn-black btn-outline-black ml-1 rounded-0">View</a>
+                          
+                          <a href="#" class="btn btn-black btn-outline-black ml-1 rounded-0">Ver</a>
                         </div>
                       </div>
                     </div>
@@ -989,8 +988,8 @@
                         </div>
                         <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
                         <div>
-                          <a href="#" class="btn btn-black mr-1 rounded-0">Cart</a>
-                          <a href="#" class="btn btn-black btn-outline-black ml-1 rounded-0">View</a>
+                          
+                          <a href="#" class="btn btn-black btn-outline-black ml-1 rounded-0">Ver</a>
                         </div>
                       </div>
                     </div>
@@ -1009,8 +1008,8 @@
                         </div>
                         <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
                         <div>
-                          <a href="#" class="btn btn-black mr-1 rounded-0">Cart</a>
-                          <a href="#" class="btn btn-black btn-outline-black ml-1 rounded-0">View</a>
+                          
+                          <a href="#" class="btn btn-black btn-outline-black ml-1 rounded-0">Ver</a>
                         </div>
                       </div>
                     </div>
@@ -1029,8 +1028,8 @@
                         </div>
                         <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
                         <div>
-                          <a href="#" class="btn btn-black mr-1 rounded-0">Cart</a>
-                          <a href="#" class="btn btn-black btn-outline-black ml-1 rounded-0">View</a>
+                          
+                          <a href="#" class="btn btn-black btn-outline-black ml-1 rounded-0">Ver</a>
                         </div>
                       </div>
                     </div>
@@ -1049,8 +1048,8 @@
                         </div>
                         <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
                         <div>
-                          <a href="#" class="btn btn-black mr-1 rounded-0">Cart</a>
-                          <a href="#" class="btn btn-black btn-outline-black ml-1 rounded-0">View</a>
+                          
+                          <a href="#" class="btn btn-black btn-outline-black ml-1 rounded-0">Ver</a>
                         </div>
                       </div>
                     </div>
@@ -1075,8 +1074,8 @@
                         </div>
                         <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
                         <div>
-                          <a href="#" class="btn btn-black mr-1 rounded-0">Cart</a>
-                          <a href="#" class="btn btn-black btn-outline-black ml-1 rounded-0">View</a>
+                          
+                          <a href="#" class="btn btn-black btn-outline-black ml-1 rounded-0">Ver</a>
                         </div>
                       </div>
                     </div>
@@ -1095,8 +1094,8 @@
                         </div>
                         <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
                         <div>
-                          <a href="#" class="btn btn-black mr-1 rounded-0">Cart</a>
-                          <a href="#" class="btn btn-black btn-outline-black ml-1 rounded-0">View</a>
+                          
+                          <a href="#" class="btn btn-black btn-outline-black ml-1 rounded-0">Ver</a>
                         </div>
                       </div>
                     </div>
@@ -1115,8 +1114,8 @@
                         </div>
                         <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
                         <div>
-                          <a href="#" class="btn btn-black mr-1 rounded-0">Cart</a>
-                          <a href="#" class="btn btn-black btn-outline-black ml-1 rounded-0">View</a>
+                          
+                          <a href="#" class="btn btn-black btn-outline-black ml-1 rounded-0">Ver</a>
                         </div>
                       </div>
                     </div>
@@ -1135,8 +1134,8 @@
                         </div>
                         <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
                         <div>
-                          <a href="#" class="btn btn-black mr-1 rounded-0">Cart</a>
-                          <a href="#" class="btn btn-black btn-outline-black ml-1 rounded-0">View</a>
+                          
+                          <a href="#" class="btn btn-black btn-outline-black ml-1 rounded-0">Ver</a>
                         </div>
                       </div>
                     </div>
@@ -1155,8 +1154,8 @@
                         </div>
                         <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
                         <div>
-                          <a href="#" class="btn btn-black mr-1 rounded-0">Cart</a>
-                          <a href="#" class="btn btn-black btn-outline-black ml-1 rounded-0">View</a>
+                          
+                          <a href="#" class="btn btn-black btn-outline-black ml-1 rounded-0">Ver</a>
                         </div>
                       </div>
                     </div>
@@ -1175,8 +1174,8 @@
                         </div>
                         <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
                         <div>
-                          <a href="#" class="btn btn-black mr-1 rounded-0">Cart</a>
-                          <a href="#" class="btn btn-black btn-outline-black ml-1 rounded-0">View</a>
+                          
+                          <a href="#" class="btn btn-black btn-outline-black ml-1 rounded-0">Ver</a>
                         </div>
                       </div>
                     </div>
@@ -1210,8 +1209,8 @@
                             </div>
                             <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
                             <div>
-                              <a href="#" class="btn btn-black mr-1 rounded-0">Cart</a>
-                              <a href="#" class="btn btn-black btn-outline-black ml-1 rounded-0">View</a>
+                              
+                              <a href="#" class="btn btn-black btn-outline-black ml-1 rounded-0">Ver</a>
                             </div>
                           </div>
                         </div>
@@ -1230,8 +1229,8 @@
                             </div>
                             <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
                             <div>
-                              <a href="#" class="btn btn-black mr-1 rounded-0">Cart</a>
-                              <a href="#" class="btn btn-black btn-outline-black ml-1 rounded-0">View</a>
+                              
+                              <a href="#" class="btn btn-black btn-outline-black ml-1 rounded-0">Ver</a>
                             </div>
                           </div>
                         </div>
@@ -1250,8 +1249,8 @@
                             </div>
                             <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
                             <div>
-                              <a href="#" class="btn btn-black mr-1 rounded-0">Cart</a>
-                              <a href="#" class="btn btn-black btn-outline-black ml-1 rounded-0">View</a>
+                              
+                              <a href="#" class="btn btn-black btn-outline-black ml-1 rounded-0">Ver</a>
                             </div>
                           </div>
                         </div>
@@ -1270,8 +1269,8 @@
                             </div>
                             <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
                             <div>
-                              <a href="#" class="btn btn-black mr-1 rounded-0">Cart</a>
-                              <a href="#" class="btn btn-black btn-outline-black ml-1 rounded-0">View</a>
+                              
+                              <a href="#" class="btn btn-black btn-outline-black ml-1 rounded-0">Ver</a>
                             </div>
                           </div>
                         </div>
@@ -1290,8 +1289,8 @@
                             </div>
                             <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
                             <div>
-                              <a href="#" class="btn btn-black mr-1 rounded-0">Cart</a>
-                              <a href="#" class="btn btn-black btn-outline-black ml-1 rounded-0">View</a>
+                              
+                              <a href="#" class="btn btn-black btn-outline-black ml-1 rounded-0">Ver</a>
                             </div>
                           </div>
                         </div>
@@ -1395,137 +1394,18 @@
         <div class="row align-items-center justify-content-center">
           <div class="col-md-7 text-center">
             <h3 class="section-sub-title">Propoción Especial</h3>
-            <h3 class="section-title text-white mb-4">Amor y amistad Promoción</h3>
+            <h3 class="section-title text-white mb-4">Navidad</h3>
             <p class="mb-5 lead">Repudiandae nostrum natus excepturi fuga ullam accusantium vel ut eveniet aut consequatur laboriosam ipsam.</p>
             
             <div id="date-countdown" class="mb-5"></div>
 
-            <p><a href="#contact-section" class="btn btn-white btn-outline-white py-3 px-5 rounded-0 mb-lg-0 mb-2 d-block d-sm-inline-block">Shop Now</a></p>
+            <p><a href="#contact-section" class="btn btn-white btn-outline-white py-3 px-5 rounded-0 mb-lg-0 mb-2 d-block d-sm-inline-block">Compra ahora</a></p>
           </div>
         </div>
 
       </div>
     </div>
-
-    <div class="site-section bg-light" id="services-section">
-      <div class="container">
-        <div class="row mb-5">
-          <div class="col-12 text-center">
-            <h3 class="section-sub-title">Nuestros servicios</h3>
-            <h2 class="section-title mb-3">Nosotros nos preocupamos por nuestros clientes</h2>
-          </div>
-        </div>
-        <div class="row align-items-stretch">
-          <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up">
-            <div class="unit-4 d-flex">
-              <div class="unit-4-icon mr-4"><span class="text-primary icon-pie_chart"></span></div>
-              <div>
-                <h3>Business Consulting</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.</p>
-                <p><a href="#">Learn More</a></p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up" data-aos-delay="100">
-            <div class="unit-4 d-flex">
-              <div class="unit-4-icon mr-4"><span class="text-primary icon-backspace"></span></div>
-              <div>
-                <h3>Market Analysis</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.</p>
-                <p><a href="#">Learn More</a></p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up" data-aos-delay="200">
-            <div class="unit-4 d-flex">
-              <div class="unit-4-icon mr-4"><span class="text-primary icon-av_timer"></span></div>
-              <div>
-                <h3>User Monitoring</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.</p>
-                <p><a href="#">Learn More</a></p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="site-section testimonial-wrap" id="testimonials-section">
-      <div class="container">
-        <div class="row mb-5">
-          <div class="col-12 text-center">
-            <h3 class="section-sub-title">Qué dicen nuestros clientes</h3>
-            <h2 class="section-title mb-3">Testimonios</h2>
-          </div>
-        </div>
-      </div>
-      <div class="slide-one-item home-slider owl-carousel">
-          <div>
-            <div class="testimonial">
-              <figure class="mb-4 d-block align-items-center justify-content-center">
-                <div><img src="images/person_3.jpg" alt="Image" class="w-100 img-fluid mb-3"></div>
-              </figure>
-              <blockquote class="mb-3">
-                <p>&ldquo;Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur unde reprehenderit aperiam quaerat fugiat repudiandae explicabo animi minima fuga beatae illum eligendi incidunt consequatur. Amet dolores excepturi earum unde iusto.&rdquo;</p>
-              </blockquote>
-              <p class="text-black"><strong>John Smith</strong></p>
-
-              
-            </div>
-          </div>
-          <div>
-            <div class="testimonial">
-              
-              <figure class="mb-4 d-block align-items-center justify-content-center">
-                <div><img src="images/person_2.jpg" alt="Image" class="w-100 img-fluid mb-3"></div>
-              </figure>
-
-              <blockquote class="mb-3">
-                <p>&ldquo;Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur unde reprehenderit aperiam quaerat fugiat repudiandae explicabo animi minima fuga beatae illum eligendi incidunt consequatur. Amet dolores excepturi earum unde iusto.&rdquo;</p>
-              </blockquote>
-              
-              <p class="text-black"><strong>Robert Aguilar</strong></p>
-              
-              
-            </div>
-          </div>
-
-          <div>
-            <div class="testimonial">
-              <figure class="mb-4 d-block align-items-center justify-content-center">
-                <div><img src="images/person_4.jpg" alt="Image" class="w-100 img-fluid mb-3"></div>
-              </figure>
-              <blockquote class="mb-3">
-                <p>&ldquo;Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur unde reprehenderit aperiam quaerat fugiat repudiandae explicabo animi minima fuga beatae illum eligendi incidunt consequatur. Amet dolores excepturi earum unde iusto.&rdquo;</p>
-              </blockquote>
-              <p class="text-black"><strong>Roger Spears</strong></p>
-
-              
-            </div>
-           
-          </div>
-
-          <div>
-            <div class="testimonial">
-              <figure class="mb-4 d-block align-items-center justify-content-center">
-                <div><img src="images/person_1.jpg" alt="Image" class="w-100 img-fluid mb-3"></div>
-              </figure>
-              <blockquote class="mb-3">
-                <p>&ldquo;Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur unde reprehenderit aperiam quaerat fugiat repudiandae explicabo animi minima fuga beatae illum eligendi incidunt consequatur. Amet dolores excepturi earum unde iusto.&rdquo;</p>
-              </blockquote>
-              <p class="text-black"><strong>Kyle McDonald</strong></p>
-
-              
-            </div>
-
-          </div>
-
-        </div>
-    </div>
-
-    
-
-    <div class="site-section" id="blog-section">
+  <div class="site-section" id="blog-section">
       <div class="container">
         <div class="row mb-5">
           <div class="col-12 text-center">
@@ -1648,7 +1528,7 @@
               <div class="col-md-8">
                 <div class="row">
                   <div class="col-md-5">
-                    <h2 class="footer-heading mb-4">About Us</h2>
+                    <h2 class="footer-heading mb-4">Acerca de nosotros</h2>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque facere laudantium magnam voluptatum autem. Amet aliquid nesciunt veritatis aliquam.</p>
                   </div>
                   <div class="col-md-3 ">
@@ -1656,7 +1536,6 @@
                     <ul class="list-unstyled">
                       <li><a href="#">About Us</a></li>
                       <li><a href="#">Services</a></li>
-                      <li><a href="#">Testimonials</a></li>
                       <li><a href="#">Contact Us</a></li>
                     </ul>
                   </div>
